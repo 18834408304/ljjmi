@@ -1,0 +1,555 @@
+/* 小头开始 */
+.product-box{
+	width: 100%;
+	height: 65px;
+	background: #fff;
+	border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.07);
+	box-sizing: border-box;
+	position: relative;
+}
+.product-box .proheader{
+	width: 100%;
+	height: 63px;
+	background: #fff;
+	position: relative;
+    color: #616161;
+}
+.product-box .proheader .container{
+	width: 1226px;
+	height:60px;
+	background: #fff;
+	margin: 0 auto;
+}
+.product-box .proheader .container .container-left{
+	width: 106px;
+	height: 60px;
+	float: left;
+	font-size: 18px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #212121;
+}
+.product-box .proheader .container .container-right{
+	width: 265px;
+	height: 60px;
+	float: right;
+}
+.product-box .proheader .container .container-right .text{
+	height: 100%;
+	font-size: 14px;
+	color: #616161;
+	line-height: 60px;
+	float: left;
+	transition: all 0.02s;
+}
+.product-box .proheader .container .container-right .text:hover{
+	color: #FF6700;
+}
+.product-box .proheader .container .container-right .line{
+	height: 100%;
+	font-size: 14px;
+	color: #e0e0e0;
+	line-height: 60px;
+	float: left;
+	margin: 0px 7px;
+}
+
+/* 小头结束 */
+/* 中间开始 */
+.xm-buy-box{
+	width: 100%;
+	height: 600px;
+	background: #fff;
+	padding-bottom: 50px;
+	position: relative;
+}
+.xm-buy-box .clearfix{
+	width: 100%;
+	height: 600px;
+	background: #fff;
+	margin-top: 10px;
+}
+.xm-buy-box .clearfix .pro-choose{
+	width: 100%;
+	height: 560px;
+	background: #fff;
+	padding-top: 32px;
+    padding-bottom: 12px;
+}
+.xm-buy-box .clearfix .pro-choose .img-icon{
+	width: 560px;
+	margin-left: 62.5px;
+	float: left;
+	position: relative;
+}
+.xm-buy-box .clearfix .pro-choose .img-icon .img-left{
+	width: 560px;
+	height: 560px;
+	background: red;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.xm-buy-box .clearfix .pro-choose .img-icon .img-left>ul>li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.xm-buy-box .clearfix .pro-choose .img-icon .img-left>ul>li img{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.xm-buy-box .clearfix .pro-choose .img-icon .banner-point{
+	width: 560px;
+	height: 18px;
+	position: absolute;
+	right: 0;
+	top: 544px;
+}
+.xm-buy-box .clearfix .pro-choose .img-icon .banner-point>div{
+	float: left;
+	margin-left: 135px;
+}
+.xm-buy-box .clearfix .pro-choose .img-icon .banner-point>div .dongline{
+	background: #666;
+}
+.xm-buy-box .clearfix .pro-choose .img-icon .banner-point>div>div{
+	width: 60px;
+	height: 2px;
+	background: #b0b0b0;
+	float: left;
+	margin-left: 12px;
+	cursor: pointer;
+}
+.xm-buy-box .clearfix .pro-choose .img-icon .banner-point>div>div:hover{
+	background: #666;
+}
+ .xm-buy-box .clearfix .pro-choose .img-icon .banner-btn {
+ 	width: 41px;
+ 	height: 69px;
+ 	position: absolute;
+ 	top: 246px;
+ 	bottom: 0;
+ 	margin:0 auto;
+ 	cursor: pointer;
+ }
+
+.xm-buy-box .clearfix .pro-choose .img-icon .banner-btn1 {
+ 	left: 0;
+ 	border-top-right-radius: 3px;
+ 	border-bottom-right-radius: 3px;
+ 	background-image: url(../img/icon-slides.png);
+	background-position: 83px 0;
+	position: absolute;
+ }
+.xm-buy-box .clearfix .pro-choose .img-icon .banner-btn1:hover{
+	background-position: 0px 0;
+ }
+.xm-buy-box .clearfix .pro-choose .img-icon .banner-btn2 {
+ 	right: 0;
+ 	border-top-left-radius: 3px;
+ 	border-bottom-left-radius: 3px;
+ 	background-image: url(../img/icon-slides.png);
+ 	background-position: -126px 0;
+ 	background-repeat: no-repeat;
+	position: absolute;
+ }
+.xm-buy-box .clearfix .pro-choose .img-icon .banner-btn2:hover{
+	background-position: -42px 0;
+ }
+.xm-buy-box .clearfix .pro-choose .pro-info{
+	width: 606px;
+	height: 560px;
+	float: right;
+	margin-right: 65px;
+	overflow: auto;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info::-webkit-scrollbar{
+	width: 0;
+	height: 0;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong{
+	width: 606px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .pro-title{
+	font-size: 24px;
+    font-weight: normal;
+    color: #212121;
+	line-height: 1;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .pro-title .img{
+	width: 50px;
+	height: 27px;
+	display: inline-block;
+	margin-top: 3px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .pro-title .img img{
+	width: 50px;
+	height: 24px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .sale-desc{
+	width: 606px;
+	height: 42px;
+	padding-top: 8px;
+	color: #b0b0b0;
+	font-size: 16px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .sale-desc span{
+	color: #ff4a00;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .aftersale{
+	color: #FF6700;
+	margin-top: 14px;
+	font-size: 14px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .pro-time{
+	width: 606px;
+	height: 91.735px;
+	margin-top: 22px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .pro-time .pro-time-head{
+	width: 606px;
+	height: 41.38px;
+	padding: 10px;
+	box-sizing: border-box;
+	color: #fff;
+	background: #FF6700;
+	font-size: 14px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .pro-time .pro-time-head .iconfont{
+	display: inline-block;
+    width: 12px;
+    height: 22px;
+    margin-right: 20px;
+    vertical-align: middle;
+	color: #fff;
+	font-size: 22px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .pro-time .pro-time-head .seckilltime{
+	float: right;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .pro-time .pro-time-con{
+	width: 606px;
+	height: 50px;
+	background: #f9f9fa;
+	line-height: 50px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .pro-time .pro-time-con .pro-time-price{
+	color: #333;
+    margin-left: 15px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .pro-time .pro-time-con .pro-time-price .seckillprice{
+	font-style: normal;
+    font-size: 24px;
+	color: #FF6700;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .pro-time .pro-time-con .pro-time-price del{
+	margin-left: 20px;
+    font-size: 16px;
+    color: #999999;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .addresswrap{
+	width: 606px;
+	height: 104px;
+	padding: 40px 0;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .addresswrap .user-defult{
+	width: 606px;
+	height: 104px;
+	padding: 30px 40px 30px 32px;
+    border-top: 1px solid #e0e0e0;
+    position: relative;
+	background: #fafafa;
+	box-sizing: border-box;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .addresswrap .user-defult .iconfont{
+	position: absolute;
+    left: 20px;
+    top: 26px;
+    font-size: 20px;
+    color: #999;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .addresswrap .user-defult>div{
+	margin-left: 15px;
+	font-size: 14px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .addresswrap .user-defult>div .address-info{
+	display: inline-block;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .addresswrap .user-defult>div .address-info .item{
+	margin-right: 14px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .addresswrap .user-defult>div .switch-choose{
+	color: #FF6700;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .addresswrap .user-defult .sale{
+	font-size: 14px;
+	color: #FF6700;
+	margin-top: 4px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap{
+	width: 606px;
+	height: 737px;
+	margin-top: 30px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .pro-choose-col2{
+	width: 606px;
+	height: 78px;
+	margin-bottom: 30px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .pro-choose-col2 .step-title{
+	width: 606px;
+	font-size: 18px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .pro-choose-col2>ul{
+	margin-left: -6px;
+	padding-top: 1px;
+	box-sizing: border-box;
+}
+
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .pro-choose-col2>ul>li{
+	margin-left: 6px;
+    margin-top: 15px;
+	border: 1px solid #e0e0e0;
+    cursor: pointer;
+	float: left;
+	width: 298px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .pro-choose-col2>ul .btn-active{
+	border-color: #FF6700;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .pro-choose-col2>ul>li a{
+	padding: 0 27px;
+	margin: 0 10px;
+	text-align: center;
+	display: block;
+	color: #333;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .pro-choose-col2>ul>li a .name{
+	color: #FF6700;
+	float: left;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .pro-choose-col2>ul>li a .price{
+	float: right;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .pro-choose-col2>ul .btn a .name{
+	color: #333;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .pro-choose-col2>ul .btn a .price{
+	color: #e0e0e0;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .pro-choose-col2>ul>li a img{
+	width: 16px;
+	height: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .pro-choose-col2>ul>li a .touming{
+	color: #FF6700;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .pro-choose-col2>ul>li a .muguangjin{
+	color: #333;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .list-choose-small{
+	width: 606px;
+	height: 316px;
+	margin-bottom: 30px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .list-choose-small .step-title{
+	width: 606px;
+	height: 18px;
+	margin-bottom: 15px;
+	font-size: 18px;
+	color: #333;
+	line-height: 18px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .list-choose-small .step-title a{
+	float: right;
+	font-size: 14px;
+	color: #ff6700;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .list-choose-small>ul{
+	width: 606px;
+	height: 142px;
+	padding-top: 1px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .list-choose-small>ul>li{
+	width: 606px;
+	height: 142px;
+	padding: 30px 0;
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	background: #fff;
+    cursor: pointer;
+	position: relative;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .list-choose-small>ul>li .icon2{
+	display: block;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 30px;
+    float: left;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+	color: #e0e0e0;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .list-choose-small>ul>li img{
+	width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-left: 10px;
+    float: left;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .list-choose-small>ul>li div{
+	width: 370px;
+	float: left;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .list-choose-small>ul>li .name{
+	font-size: 18px;
+    margin-bottom: 10px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .list-choose-small>ul>li .desc{
+	font-size: 14px;
+    height: 18px;
+    color: #b0b0b0;
+    width: 286px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .list-choose-small>ul>li .agreement{
+	margin-top: 10px;
+	color: #757575;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .list-choose-small>ul>li .agreement .icon1{
+	display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+	font-size: 24px;
+	text-align: center;
+	margin: 2px 5px 0 0;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .list-choose-small>ul>li .agreement a{
+	color: #ff6700;
+    display: inline-block;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .list-choose-small>ul>li .agreement a span{
+	color: #757575;
+    margin: 0 5px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .list-wrap .list-choose-small>ul>li .price{
+	position: absolute;
+    right: 20px;
+    bottom: 28px;
+    color: #757575;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .prolist{
+	width: 606px;
+	height: 160px;
+	padding: 30px 0;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+	background: #f9f9fa;
+	margin-top: 30px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .prolist>ul>li{
+	width: 546px;
+	height: 30px;
+	line-height: 30px;
+	color: #616161;
+	font-size: 14px;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .prolist>ul>li del{
+	margin-left: 5px;
+	float: right;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .prolist>ul>li span{
+	float: right;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .prolist>ul .totleprice{
+	color: #ff6700;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .btn-wrap{
+	width: 606px;
+	height: 56px;
+	margin: 10px 0 20px 0;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .btn-wrap>li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .btn-wrap>li .btn-gray{
+	display: inline-block;
+	background: #ff6700;
+    border:1px solid #ff6700;
+    color: #fff;
+	width: 298px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 16px;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .btn-wrap>li .btn-like{
+	display: inline-block;
+	background: #b0b0b0;
+    border:1px solid #b0b0b0;
+    color: #fff;
+	width: 142px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 16px;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .btn-wrap>li .btn-like .iconfont{
+	font-size: 22px;
+    line-height: 52px;
+    margin-right: 5px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .pro-policy{
+	width: 606px;
+	height: 41.38px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .pro-policy a{
+	display: inline-block;
+    cursor: default;
+    color: #b0b0b0;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .pro-policy a .support{
+	display: inline-block;
+    margin-right: 15px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .pro-policy a .support i{
+	font-size: 16px;
+    display: inline-block;
+	line-height: 20px;
+}
+.xm-buy-box .clearfix .pro-choose .pro-info .tuodong .pro-policy a .support em{
+    display: inline-block;
+    margin-left: 2px;
+	font-size: 14px;
+}
+/* 中间结束 */
