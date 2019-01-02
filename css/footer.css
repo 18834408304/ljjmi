@@ -179,7 +179,7 @@
 	 color: #b0b0b0;
 	 cursor: pointer;
  }
- .site-ddb-1 .di-text p:hover{
+ .site-ddb-1 .di-text p span:hover{
 	 color: #ff6700;
  }
  .site-ddb-1 .info-link{
