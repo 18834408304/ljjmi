@@ -1,0 +1,274 @@
+/* 头部开始 */
+.wrapper {
+	width: 100%;
+	height: 558px;
+	background: #f9f9f9;
+	margin: 0 auto;
+}
+
+.wrapper .layout {
+	width: 854px;
+	height: 558px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.wrapper .layout .frame {
+	padding: 0 34px 30px 34px;
+	box-sizing: border-box;
+	background: #fff;
+}
+
+.wrapper .layout .frame .extranal-logo {
+	width: 786px;
+	height: 88px;
+	padding-bottom: 40px;
+	box-sizing: border-box;
+}
+
+.wrapper .layout .frame .extranal-logo img {
+	width: 49px;
+	height: 48px;
+	margin: 0 auto;
+	display: block;
+}
+
+.wrapper .layout .frame .title-item {
+	width: 786px;
+	height: 45px;
+	color: #333;
+	line-height: 45px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.wrapper .layout .frame .form-box {
+	width: 786px;
+	height: 385px;
+}
+
+.wrapper .layout .frame .form-box .reg-box {
+	width: 786px;
+	height: 310px;
+	padding: 30px 0;
+	line-height: 20px;
+	margin-left: 227px;
+	box-sizing: border-box;
+}
+
+.wrapper .layout .frame .form-box .reg-box .phone-step .tit-nor {
+	padding-bottom: 5px;
+	color: #333;
+	font-size: 14px;
+}
+
+.wrapper .layout .frame .form-box .reg-box .phone-step .list-wrap {
+	width: 332px;
+	height: 57px;
+	padding-bottom: 15px;
+	box-sizing: border-box;
+}
+
+.wrapper .layout .frame .form-box .reg-box .phone-step .list-wrap .listtit {
+	width: 332px;
+	height: 42px;
+	padding-left: 14px;
+	border: 1px solid #e8e8e8;
+	color: #555;
+	cursor: pointer;
+	line-height: 42px;
+	box-sizing: border-box;
+}
+
+.wrapper .layout .frame .form-box .reg-box .phone-step .list-wrap .listtit .result {
+	width: 276px;
+	height: 42px;
+	border-right: 1px solid #e8e8e8;
+	float: left;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.wrapper .layout .frame .form-box .reg-box .phone-step .list-wrap .listtit .iconfont {
+	float: right;
+	font-size: 18px;
+	display: block;
+	margin-right: 12px;
+	color: #e8e8e8;
+}
+
+.wrapper .layout .frame .form-box .reg-box .phone-step .region {
+	margin-bottom: 15px;
+	font-size: 14px;
+	color: #666;
+	margin-top: -10px;
+}
+
+.wrapper .layout .frame .form-box .reg-box .phone-step .list-wrap-inside {
+	width: 332px;
+	height: 57px;
+}
+
+.wrapper .layout .frame .form-box .reg-box .phone-step .list-wrap-inside .select {
+	width: 74px;
+	height: 57px;
+	padding-bottom: 15px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.wrapper .layout .frame .form-box .reg-box .phone-step .list-wrap-inside .select .listtit {
+	width: 74px;
+	height: 42px;
+	text-align: center;
+	padding: 0 9px;
+	box-sizing: border-box;
+	line-height: 42px;
+	border: 1px solid #e8e8e8;
+	color: #555;
+	cursor: pointer;
+}
+
+.wrapper .layout .frame .form-box .reg-box .phone-step .list-wrap-inside .select .listtit p {
+	float: left;
+	font-size: 14px;
+}
+
+.wrapper .layout .frame .form-box .reg-box .phone-step .list-wrap-inside .select .listtit .iconfont {
+	font-size: 14px;
+	color: #9d9d9d;
+}
+
+.wrapper .layout .frame .form-box .reg-box .phone-step .list-wrap-inside .inputbg {
+	width: 257px;
+	height: 57px;
+	padding-bottom: 15px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.wrapper .layout .frame .form-box .reg-box .phone-step .list-wrap-inside .inputbg .label {
+	width: 257px;
+	height: 42px;
+	box-sizing: border-box;
+	border: 1px solid #e8e8e8;
+}
+
+.wrapper .layout .frame .form-box .reg-box .phone-step .list-wrap-inside .inputbg .label input {
+	outline: 0;
+	height: 20px;
+	line-height: 20px;
+	display: inline-block;
+	box-sizing: border-box;
+	color: #333;
+	font-size: 14px;
+	border: 0;
+	margin: 10px;
+}
+
+.wrapper .layout .frame .form-box .reg-box .phone-step .list-wrap-inside .fixed {
+	width: 332px;
+	height: 42px;
+}
+
+.wrapper .layout .frame .form-box .reg-box .phone-step .list-wrap-inside .fixed:hover {
+	background: ff936a;
+}
+
+.wrapper .layout .frame .form-box .reg-box .phone-step .list-wrap-inside .fixed .fixed-bt {
+	width: 100%;
+	height: 100%;
+	background-color: #ff6700;
+	border: 1px solid rgba(186, 186, 186, 0.3);
+	color: #fff;
+	line-height: 42px;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+	margin-top: 15px;
+	outline: none;
+}
+
+.wrapper .layout .frame .form-box .privacy-box {
+	width: 786px;
+	height: 79px;
+	text-align: center;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+
+.wrapper .layout .frame .form-box .privacy-box .msg {
+	width: 786px;
+	height: 39px;
+	color: #9d9d9d;
+}
+
+.wrapper .layout .frame .form-box .privacy-box .msg .checked {
+	padding: 10px 0;
+	cursor: pointer;
+	display: inline-block;
+	box-sizing: border-box;
+	font-size: 14px;
+	color: #9d9d9d;
+}
+
+.wrapper .layout .frame .form-box .privacy-box .msg .checked img {
+	vertical-align: middle;
+}
+
+.wrapper .layout .frame .form-box .privacy-box .msg .checked a {
+	color: #333;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+/* 头部结束 */
+.n-footer {
+	width: 100%;
+	height: 80px;
+	background: #f9f9f9;
+}
+
+.n-footer .nf-link {
+	width: 100%;
+	height: 19px;
+	text-align: center;
+	margin: 5px auro 0 auto;
+}
+
+.n-footer .nf-link>ul>li {
+	display: inline-block;
+	color: #757575;
+	font-size: 14px;
+}
+
+.n-footer .nf-link>ul>li .lang {
+	color: #757575;
+	padding: 0 10px;
+}
+
+.n-footer .nf-link>ul>li .lang:hover {
+	color: #333;
+}
+
+.n-footer .nf-link>ul>li .liang {
+	color: #333;
+}
+
+.n-footer .nf-info {
+	width: 100%;
+	height: 44px;
+	padding: 10px 0;
+	box-sizing: border-box;
+	text-align: center;
+	color: #757575;
+	font-size: 14px;
+}
+
+.n-footer .nf-info a {
+	color: #757575;
+	font-size: 14px;
+}
+
+/* 底部结束 */

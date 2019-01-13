@@ -189,6 +189,7 @@
  	box-sizing: border-box;
  	outline: none;
  	padding-left: 20px;
+	border: 0;
  }
 
  .search-ts {

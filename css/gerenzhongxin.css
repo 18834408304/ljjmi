@@ -1,0 +1,207 @@
+/* 小头开始 */
+.breadcrumbs{
+	width: 100%;
+	height: 41px;
+	background: #f5f5f5;
+	margin: 0 auto;
+}
+.breadcrumbs .container{
+	width: 1226px;
+	height: 41px;
+	margin: 0 auto;
+	font-size: 12px;
+	line-height: 41px;
+}
+.breadcrumbs .container a{
+	color: #757575;
+}
+.breadcrumbs .container a:hover{
+	color: #616161;
+}
+.breadcrumbs .container span{
+	color: #616161;
+}
+.breadcrumbs .container .sep{
+	margin:0 5px;
+    color: #b0b0b0;
+}
+/* 小头结束 */
+
+/* 中间开始 */
+.page-main{
+	width: 100%;
+	height: 1061px;
+	background: #f5f5f5;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	box-sizing: border-box;
+}
+.page-main .container{
+	width: 1226px;
+	height: 1021px;
+	margin: 0 auto;
+}
+.page-main .container .page-left{
+	width: 234px;
+	height: 1021px;
+	background: #fff;
+	padding: 36px 0;
+	box-sizing: border-box;
+	float: left;
+}
+.page-main .container .page-left .uc-nav{
+	width: 234px;
+	margin-bottom: 12px;
+}
+.page-main .container .page-left .uc-nav .box-hd{
+	width: 234px;
+	height: 52px;
+}
+.page-main .container .page-left .uc-nav .box-hd .title{
+	margin: 0 48px 2px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 52px;
+    color: #333;
+}
+.page-main .container .page-left .uc-nav .box-bd{
+	width: 234px;
+}
+.page-main .container .page-left .uc-nav .box-bd>ul>li{
+	padding: 6px 48px;
+	box-sizing: border-box;
+}
+.page-main .container .page-left .uc-nav .box-bd>ul>li a{
+	color: #757575;
+	font-size: 14px;
+}
+.page-main .container .page-left .uc-nav .box-bd .active a{
+	color: #ff6700;
+}
+.page-main .container .page-right{
+	width: 978px;
+	height: 667px;
+	background: #fff;
+	margin-left: 14px;
+	float: right;
+}
+.page-main .container .page-right .top{
+	width: 882px;
+	height: 200px;
+	margin:0 auto;
+	margin-top:62px;
+	border-bottom:1px solid #e0e0e0;
+	display: flex;
+}
+.page-main .container .page-right .top img{
+	width: 158px;
+	height: 158px;
+	border: 1px solid #e0e0e0;
+    border-radius: 150px
+}
+.page-main .container .page-right .top .wenzikang1{
+	width: 302px;
+	height: 160px;
+	margin-left: 20px;
+}
+.page-main .container .page-right .top .wenzikang1 h2{
+    margin-top:44px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #616161;
+}
+.page-main .container .page-right .top .wenzikang1 i{
+	margin: 0 0 10px;
+    color: #b0b0b0;
+	font-size: 14px;
+	margin-top:5px;
+	display: block;
+}
+.page-main .container .page-right .top .wenzikang1 span{
+	font-size: 12px;
+    color: #ff6700;
+	cursor: pointer;
+}
+.page-main .container .page-right .top .wenzikang2{
+	width: 350px;
+	height: 160px;
+	margin-left: 50px;
+	float: right;
+	position: relative;
+}
+.page-main .container .page-right .top .wenzikang2 .anquan{
+	color: #757575;
+	font-size: 14px;
+	margin-top:42px;
+}
+.page-main .container .page-right .top .wenzikang2 .anquan i{
+	color: #ff6700;
+}
+.page-main .container .page-right .top .wenzikang2 a{
+	color: #757575;
+	font-size: 14px;
+	display: block;
+	margin: 10px 0;
+}
+.page-main .container .page-right .top .wenzikang2 span{
+	color: #757575;
+	font-size: 14px;
+}
+.page-main .container .page-right .top .wenzikang2 .bangding{
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	line-height: 30px;
+	background: #ff6700;
+	position: absolute;
+	bottom: 30px;
+	right: 0;
+	cursor: pointer;
+}
+.page-main .container .page-right .bottom{
+	width: 882px;
+	height: 320px;
+	margin:0 auto;
+	margin-top: 60px;
+}
+.page-main .container .page-right .bottom>ul>li{
+	width:388px;
+	float: left;
+	margin-bottom: 60px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.page-main .container .page-right .bottom>ul>li .zuo{
+	width: 100px;
+	height: 100px;
+	margin-left: 7px;
+}
+.page-main .container .page-right .bottom>ul>li .zuo img{
+	width: 100%;
+	height: 100%;
+}
+.page-main .container .page-right .bottom>ul>li .you{
+	width: 260px;
+	height: 100px;
+}
+.page-main .container .page-right .bottom>ul>li .you h3{
+	display: block;
+	margin-top: 24px;
+	color: #757575;
+}
+.page-main .container .page-right .bottom>ul>li .you h3 i{
+	color: #ff6700;
+}
+.page-main .container .page-right .bottom>ul>li .you span{
+	margin-top: 5px;
+	font-size: 14px;
+	cursor: pointer;
+	color: #757575;
+}
+.page-main .container .page-right .bottom>ul>li .you span:hover{
+	color: #ff6700;
+}
+/* 中间结束 */
