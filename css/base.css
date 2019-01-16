@@ -32,4 +32,7 @@ a{
 	height: 0;
 	clear: both;
 }
+html{
+			-webkit-user-select:one
+}
 
