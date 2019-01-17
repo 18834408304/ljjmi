@@ -1,23 +1,4 @@
 window.onload = function(){
-	function selectCard(topSelector,bottomSelector){
-		let topList = document.querySelectorAll(topSelector);
-		let bottomList = document.querySelectorAll(bottomSelector);
-		topList.forEach((val,index)=>{
-			val.onclick = function(){
-				topList.forEach((ele,key)=>{
-					ele.classList.remove("dongtai")
-					bottomList[key].style.display="none";
-				})
-				topList[index].classList.add("dongtai")
-				bottomList[index].style.display="block";
-			}
-		})
-	}
-	selectCard(".first-floor .top .jiadian-right li"," .first-floor .bottom .dianqi-right ul")
-	selectCard(".second-floor .top .jiadian-right li"," .second-floor .bottom .dianqi-right ul")
-	selectCard(".thirsd-floor .top .jiadian-right li"," .thirsd-floor .bottom .dianqi-right ul")
-	selectCard(".foursd-floor .top .jiadian-right li"," .foursd-floor .bottom .dianqi-right ul")
-	selectCard(".fithed-floor .top .jiadian-right li"," .fithed-floor .bottom .dianqi-right ul")
 	
 	
 	//大轮播图
@@ -71,12 +52,36 @@ window.onload = function(){
 	})
 	
 	
+	
+	//家电选项卡
+	function selectCard(topSelector,bottomSelector){
+		let topList = document.querySelectorAll(topSelector);
+		let bottomList = document.querySelectorAll(bottomSelector);
+		topList.forEach((val,index)=>{
+			val.onclick = function(){
+				topList.forEach((ele,key)=>{
+					ele.classList.remove("dongtai")
+					bottomList[key].style.display="none";
+				})
+				topList[index].classList.add("dongtai")
+				bottomList[index].style.display="block";
+			}
+		})
+	}
+	selectCard(".first-floor .top .jiadian-right li"," .first-floor .bottom .dianqi-right ul")
+	selectCard(".second-floor .top .jiadian-right li"," .second-floor .bottom .dianqi-right ul")
+	selectCard(".thirsd-floor .top .jiadian-right li"," .thirsd-floor .bottom .dianqi-right ul")
+	selectCard(".foursd-floor .top .jiadian-right li"," .foursd-floor .bottom .dianqi-right ul")
+	selectCard(".fithed-floor .top .jiadian-right li"," .fithed-floor .bottom .dianqi-right ul")
+	
+	
+	
+	
 	//闪购轮播
 	let flasbtnleft = document.querySelector(".shangou-btn .btn-left");
 	let flasbtnright = document.querySelector(".shangou-btn .btn-right");
 	let flasbigbox = document.querySelector(".gou-right ul");
 	let flaslis = document.querySelectorAll(".gou-right ul li");
-	let flasbtn = document.querySelectorAll(".shangou-btn .btn");
 	let flasn = 0;
 	let flaswidth = (234+14)*4;
 	let flassize = flaslis.length-4;
@@ -112,6 +117,47 @@ window.onload = function(){
 		flasmove();
 	} 
 	
+	
+	
+	//为你推荐选项卡
+	let tuibtnleft = document.querySelector(".tuijian-btn .btn-left");
+	let tuibtnright = document.querySelector(".tuijian-btn .btn-right");
+	let tuibigbox = document.querySelector(".tuijian .bottom .ping>ul");
+	let tuilis = document.querySelectorAll(".tuijian .bottom .ping>ul>li");
+	let tuin = 0;
+	let tuiwidth = (234+14)*5;
+	let tuisize = tuilis.length-5;
+	function tuimove(){
+		if(tuin>tuisize){
+			tuin = tuisize;
+		}
+		if(tuin<0){
+			tuin = 0;
+		}
+		if(tuin==tuisize){
+			tuibtnright.style.cursor = "default"
+			tuibtnright.style.color = "#e9e9e9"
+		}else{
+			tuibtnright.style.cursor = "pointer"
+			tuibtnright.style.color = "#333"
+		} 
+		if(tuin==0){
+			tuibtnleft.style.cursor = "default"
+			tuibtnleft.style.color = "#e9e9e9"
+		}else{
+			tuibtnleft.style.cursor = "pointer"
+			tuibtnleft.style.color = "#333"
+		}
+		tuibigbox.style.left =-248*tuin+"px";
+	}
+	tuibtnright.onclick = function(){
+		tuin = tuin +5;
+		tuimove();
+	}
+	tuibtnleft.onclick = function(){
+		tuin = tuin - 5;
+		tuimove();
+	} 
 	
 	
 	//内容轮播
@@ -163,4 +209,18 @@ window.onload = function(){
 	neirong(".box2");
 	neirong(".box3");
 	neirong(".box4");
+	
+	
+	//tab栏的隐藏显示
+	let barx = document.querySelector(".bar-x");
+	let lc1 = document.querySelector(".lc1");
+	let root = document.documentElement;
+	window.onscroll = function(){
+		if(root.scrollTop > lc1.offsetTop){
+			barx.style.display = "block";
+		}else{
+			barx.style.display = "none";
+		}
+	}
+	
 } 
