@@ -208,6 +208,16 @@
 .content .container .goods-list-box>ul>li .ticheng{
 	width: 200px;
 	height: 200px;
+	display: block;
+	position: relative;
+}
+.content .container .goods-list-box>ul>li .ticheng>div{
+	position: absolute;
+	top:0;
+	left: 48px;
+}
+.content .container .goods-list-box>ul>li .ticheng .dongtu{
+	z-index: 1;
 }
 .content .container .goods-list-box>ul>li .desc{
 	margin: 0 0 3px;
@@ -326,6 +336,9 @@
 .content1 .container .con-xia .ping>ul {
  	width: calc(1226px * 3);
  	height: 314px;
+	position: relative;
+	left: 0;
+	transition: all 0.5s;
  }
 .content1 .container .con-xia .ping>ul>li {
  	width: 234px;
@@ -367,22 +380,6 @@
  	font-size: 12px;
  	color: #757575;
  }
-/* .content1 .container .pagers>ul>li{
-    width: 10px;
-    height: 10px;
-    padding: 10px;
-    margin: 0 2px;
-    cursor: pointer;
-	float: left;
-	text-align: center;
-	background: #b0b0b0;
-}
-.content1 .container .pagers>ul>li .yuan{
-	width: 6px;
-	height: 6px;
-    border-radius: 50%;
-	background: #b0b0b0;
-} */
 .content1 .container .xm-pagers {
   	width: 1226px;
   	height: 30px;

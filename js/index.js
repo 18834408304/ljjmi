@@ -253,23 +253,34 @@ window.onload = function(){
 	
 	
 	//logo右侧文字下拉
-	let headerLis = document.querySelectorAll(".MI-left-text span");
+	let headerLis = document.querySelectorAll(".MI-left-text .xiaowenzi li");
 	let xialaLis = document.querySelector(".header-nav");
-	let mihead = document.querySelector(".MI");
-	let logospeed = 5;
+	let xianhead = document.querySelector(".header-nav .container1>ul")
 	headerLis.forEach(function(val,index){
 		val.onmouseover = function(){
+			xialaLis.style.height ="230px";
 			setTimeout(function(){
-				xialaLis.style.transform = "translateY(100px)";
-				xialaLis.style.display = "block";
-			},500)
+				xianhead.style.display = "block";
+			},80)
 		}
 		val.onmouseout = function(){
+			xialaLis.style.height ="0";
 			setTimeout(function(){
-				xialaLis.style.transform = "translateY(-130px)";
-				xialaLis.style.display = "none";
-			},500)
+				xianhead.style.display = "none";
+			},80)
 		}
 	})
-	
+	xialaLis.onmouseover = function(){
+		xialaLis.style.height ="230px";
+		setTimeout(function(){
+			xianhead.style.display = "block";
+		},80)
+	}
+	xialaLis.onmouseout = function(){
+		xialaLis.style.height ="0";
+		setTimeout(function(){
+			xianhead.style.display = "none";
+		},80)
+	}
+
 } 
