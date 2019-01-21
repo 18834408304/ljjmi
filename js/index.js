@@ -215,12 +215,61 @@ window.onload = function(){
 	let barx = document.querySelector(".bar-x");
 	let lc1 = document.querySelector(".lc1");
 	let root = document.documentElement;
+	if(root.scrollTop >= lc1.offsetTop){
+		barx.style.display = "block";
+	}
 	window.onscroll = function(){
-		if(root.scrollTop > lc1.offsetTop){
-			barx.style.display = "block";
-		}else{
+		if(root.scrollTop >= lc1.offsetTop){
+			 setTimeout(function(){
+				if(root === document.documentElement&&root.scrollTop != 0){
+					barx.style.display = "block";
+				}
+			},1000)
+		}else if(root.scrollTop == 0){
 			barx.style.display = "none";
 		}
 	}
+	
+	
+	
+	//search的下拉列表
+	let searRight = document.querySelector(".search");
+	let inputD = document.querySelector(".search-wenben input");
+	let searLeft = document.querySelector(".search-wenben");
+	let textLeft = document.querySelector(".search-ts");
+	let lisXl = document.querySelector(".search-wenben ul");
+	inputD.onfocus = function(){
+		searRight.style.borderColor = "#ff6700";
+		textLeft.style.display = "none";
+		lisXl.style.display = "block";
+		searLeft.style.borderColor = "#ff6700";
+	}
+	inputD.onblur = function(){
+		searRight.style.borderColor = "#e0e0e0";
+		textLeft.style.display = "block";
+		lisXl.style.display = "none";
+		searLeft.style.borderColor = "#e0e0e0";
+	}
+	
+	
+	//logo右侧文字下拉
+	let headerLis = document.querySelectorAll(".MI-left-text span");
+	let xialaLis = document.querySelector(".header-nav");
+	let mihead = document.querySelector(".MI");
+	let logospeed = 5;
+	headerLis.forEach(function(val,index){
+		val.onmouseover = function(){
+			setTimeout(function(){
+				xialaLis.style.transform = "translateY(100px)";
+				xialaLis.style.display = "block";
+			},500)
+		}
+		val.onmouseout = function(){
+			setTimeout(function(){
+				xialaLis.style.transform = "translateY(-130px)";
+				xialaLis.style.display = "none";
+			},500)
+		}
+	})
 	
 } 

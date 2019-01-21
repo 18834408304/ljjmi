@@ -25,7 +25,7 @@
 
  .head .left-text {
  	height: 100%;
- 	font-size: 14px;
+ 	font-size: 12px;
  	color: #b0b0b0;
  	line-height: 40px;
  	float: left;
@@ -45,7 +45,7 @@
 
  .head .right-text {
  	height: 100%;
- 	font-size: 14px;
+ 	font-size: 12px;
  	color: #b0b0b0;
  	line-height: 40px;
  	float: left;
@@ -142,28 +142,35 @@
  .MI-left-text .xiaowenzi {
  	color: #333;
  	float: left;
- 	margin-left: 100px;
+ 	margin-left: 190px;
  }
-  .MI-left-text .xiaowenzi li:hover{
+  .MI-left-text .xiaowenzi li span:hover{
 	color: #FF6700;
 }
   .MI-left-text .xiaowenzi li {
- 	display: block;
+	display:block;
  	float: left;
- 	line-height: 100px;
- 	font-size: 18px;
- 	margin: 0 10px;
- 	cursor: pointer;
-	transition: all 0.2s;
+ }
+ .MI-left-text span{
+	 line-height: 100px;
+	 font-size: 16px;
+	 margin: 0 10px;
+	 cursor: pointer;
+	 transition: all 0.2s;
+ }
+ .MI-left-text .xiaowenzi li span:hover{
+ 	color: #FF6700;
  }
  .search {
  	width: 50px;
  	height: 48px;
  	float: right;
- 	border: 1px solid #e0e0e0;
+ 	border-top: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+ 	border-bottom: 1px solid #e0e0e0;
  	margin-top: 25px;
+	margin-right: 1px;
  	text-align: center;
-	transition:all 0.5s ;
 	cursor: pointer;
  }
   .search:hover{
@@ -216,5 +223,106 @@
  .search-ts-wenzi {
  	margin: 0px 10px;
  }
-
+.search-wenben ul{
+	width: 244px;
+	height: 290px;
+	border: 1px solid #ff6700;
+	position: absolute;
+	box-sizing: border-box;
+	top: 48px;
+	right: 0.01px;
+	background: #fff;
+	z-index: 30;
+	display: none;
+}
+.search-wenben ul li{
+	width: 100%;
+	height: 10%;
+	font-size: 14px;
+	padding: 3px 20px;
+	box-sizing: border-box;
+}
+.search-wenben ul li:hover{
+	background: #e0e0e0;
+}
+.search-wenben ul li .text-left{
+	float: left;
+	color: #333;
+}
+.search-wenben ul li .text-right{
+	float: right;
+	color: #b0b0b0;
+}
+.header-nav{
+	width: 100%;
+	height: 229px;
+	position: absolute;
+	left: 0;
+	z-index: 24;
+	transform: translateY(-130px);
+	border-top: 1px solid #e0e0e0;
+	background: #fff;
+	box-shadow: 0 3px 4px rgba(0,0,0,0.18);
+	box-sizing: border-box;
+	display: none;
+	transition: all 100s;
+} 
+.header-nav .container1{
+	width: 1226px;
+	height: 229px;
+	margin: 0 auto;
+	position: relative;
+}
+.header-nav .container1>ul{
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+}
+.header-nav .container1>ul>li{
+	position: relative;
+	float: left;
+	width: 180px;
+	padding: 35px 12px 0;
+	text-align: center;
+	box-sizing: border-box;
+}
+.header-nav .container1>ul>li .figure1{
+	width: 160px;
+	height: 110px;
+	margin: 0 auto 16px;
+}
+.header-nav .container1>ul>li .figure1 img{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.header-nav .container1>ul>li .title{
+	color: #333;
+	line-height: 20px;
+}
+.header-nav .container1>ul>li .price{
+	line-height: 20px;
+	color: #ff6700;
+}
+.shuLine{
+	position: absolute;
+	right: 0;
+	top: 35px;
+	z-index: 1;
+	width: 1px;
+	height: 100px;
+	background-color: #e0e0e0;
+}
+.xinpin1{
+	height: 18px;
+	padding: 1px 20px;
+	border: 1px solid #ff6700;
+	color: #ff6700;
+	position: absolute;
+	top: 0;
+	left: 60px;
+	z-index: 1;
+	font-size: 12px;
+	text-align: center;
+}
  /* 导航结束 */

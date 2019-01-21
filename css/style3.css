@@ -1595,8 +1595,10 @@ main {
 	width: 27px;
 	height: 216px;
 	position: fixed;
-	right: 35px;
+	left: 50%;
 	bottom: 70px;
+	z-index: 30;
+	transform: translateX(613px);
 }
 
 .home-right-bar .bar-s {
@@ -1615,6 +1617,7 @@ main {
 	line-height: 40px;
 	cursor: pointer;
 	transition: all 0.1s;
+	color: #b0b0b0;
 }
 
 .home-right-bar .bar-s div:hover {
@@ -1637,10 +1640,82 @@ main {
 	line-height: 40px;
 	cursor: pointer;
 	transition: all 0.1s;
+	color: #b0b0b0;
 }
 
 .home-right-bar .bar-x div:hover {
 	color: #FF6700;
 }
 
+
 /* 绝对定位结束 */
+
+@media only screen and (min-width:1500px) {
+	.home-right-bar{
+		right: 0;
+		width: 50px;
+		height: 216px;
+		display: block;
+	}
+	.home-right-bar .bar-s div {
+		width: 50px;
+		height: 25%;
+		border: 1px solid #f5f5f5;
+		box-sizing: border-box;
+		font-size: 30px;
+		text-align: center;
+		line-height: 40px;
+		color: #b0b0b0;
+		background: #fff;
+	}
+	.home-right-bar .bar-x {
+		width: 50px;
+		height: 60px;
+		border: 1px solid #f5f5f5;
+		box-sizing: border-box;
+		margin-top: 14px;
+		background: #fff;
+	}
+	.home-right-bar .bar-x div{
+		font-size: 30px;
+		text-align: center;
+		line-height: 60px;
+		color: #b0b0b0;
+	}
+}
+@media only screen and (max-width:1000px){
+	.home-right-bar{
+		width: 27px;
+		height: 216px;
+		position: fixed;
+		left: 50%;
+		bottom: 70px;
+		z-index: 30;
+		transform: translateX(613px);
+		display:block;
+	}
+	.home-right-bar .bar-s div {
+		width: 27px;
+		height: 25%;
+		border: 1px solid #f5f5f5;
+		box-sizing: border-box;
+		font-size:18px;
+		text-align: center;
+		line-height: 40px;
+		color: #b0b0b0;
+	}
+	.home-right-bar .bar-x {
+		width: 27px;
+		height: 40px;
+		border: 1px solid #f5f5f5;
+		box-sizing: border-box;
+		margin-top: 14px;
+		background: #fff;
+	}
+	.home-right-bar .bar-x div{
+		font-size: 18px;
+		text-align: center;
+		line-height: 40px;
+		color: #b0b0b0;
+	}
+}

@@ -87,7 +87,6 @@
 .xm-buy-box .clearfix .pro-choose .img-icon .img-left{
 	width: 560px;
 	height: 560px;
-	background: red;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -98,6 +97,12 @@
 	position: absolute;
 	top: 0;
 	left: 0;
+	opacity: 0;
+	transition: all 0.8s;
+}
+.xm-buy-box .clearfix .pro-choose .img-icon .img-left>ul .dongtu{
+	opacity: 1;
+	z-index: 5;
 }
 .xm-buy-box .clearfix .pro-choose .img-icon .img-left>ul>li img{
 	width: 100%;
@@ -110,6 +115,7 @@
 	position: absolute;
 	right: 0;
 	top: 544px;
+	z-index: 20;
 }
 .xm-buy-box .clearfix .pro-choose .img-icon .banner-point>div{
 	float: left;
@@ -137,6 +143,7 @@
  	bottom: 0;
  	margin:0 auto;
  	cursor: pointer;
+	z-index: 11;
  }
 
 .xm-buy-box .clearfix .pro-choose .img-icon .banner-btn1 {
